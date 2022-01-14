@@ -107,10 +107,10 @@ user2item = csr_matrix(user2item)
 connInfo = {
     'host':'localhost',
     'port':3306,
-    'user':'TFI101',
-    'passwd':'tfi101',
+    'user':'',
+    'passwd':'',
     'charset':'utf8mb4',
-    'db':'shopdb'
+    'db':''
 }
 
 conn = pymysql.connect(**connInfo)
